@@ -39,4 +39,4 @@ can restore it or you can say restore last clean version of the file
 16. `git remote rm <name of remote>`:this commands delete the remote connection
 
 17. `git add <file1> <file2> <file3>`: This command will add multiple files togetheer in staging area 
-18. `git add .` : this command adds all files to working area to staging area
+18. `git add .` : this command adds all files to working area to staging area.
