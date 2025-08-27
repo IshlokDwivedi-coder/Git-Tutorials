@@ -41,3 +41,11 @@ can restore it or you can say restore last clean version of the file
 17. `git add <file1> <file2> <file3>`: This command will add multiple files togetheer in staging area 
 18. `git add .` : this command adds all files to working area to staging area.
 19. `git pull <remote name> <branch name>`:download the latest changes form the branch of the mentioned remote in your local repo .
+
+   ### Recommended practice to do so
+
+       - make changes 
+       - git add <files>
+       - git commit 
+       - git pull
+       - git push 
