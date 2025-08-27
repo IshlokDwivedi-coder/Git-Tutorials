@@ -31,7 +31,7 @@ If we did some dirty part of the code and now no more of it then instead of dele
 can restore it or you can say restore last clean version of the file  
 
 11. VS code shows green bar which means all these in working area.
-12.`git comit -m "<your commit message"> -> If we want to avoid opening a text editor like vim/nano to add commit message we can use the following commands
+12.`git comit -m "<your commit message>" -> If we want to avoid opening a text editor like vim/nano to add commit message we can use the following commands
 
 13. `git remote`->list down all the connection name
 14.Remote Connection->It helps you to link two git repositories for uoploading and downloading the changes 
