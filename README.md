@@ -26,14 +26,17 @@
 
 8. `git commit`->register staging chamges to commit
 9. `git log`->list down all the commits of the repository.if you want to exit out of git log then press `q`
-10.`git restore <file>`->It removes all the files chages from the staging area to be commited .This can be useful.
+10. `git restore <file>`->It removes all the files chages from the staging area to be commited .This can be useful.
 If we did some dirty part of the code and now no more of it then instead of deleting every change line by line ,we 
 can restore it or you can say restore last clean version of the file  
+11. `git comit -m "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano to add commit message we can use the following commands
 
-11. VS code shows green bar which means all these in working area.
-12.`git comit -m "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano to add commit message we can use the following commands
-
+12. VS code shows green bar which means all these in working area.
+  
 13. `git remote`->list down all the connection name
-14.Remote Connection->It helps you to link two git repositories for uoploading and downloading the changes 
-15.`git remote add <name of remote> <link of remote>`->this command helps to add the new link to the remote repo  and give a name to it
-16.`git remote rm <name of remote>`:this commands delete the remote connection
+14. Remote Connection->It helps you to link two git repositories for uoploading and downloading the changes 
+15. `git remote add <name of remote> <link of remote>`->this command helps to add the new link to the remote repo  and give a name to it
+16. `git remote rm <name of remote>`:this commands delete the remote connection
+
+17. `git add <file1> <file2> <file3>`: This command will add multiple files togetheer in staging area 
+18. `git add .` : this command adds all files to working area to staging area
