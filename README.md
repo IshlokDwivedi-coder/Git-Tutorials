@@ -49,3 +49,14 @@ can restore it or you can say restore last clean version of the file
        - git commit 
        - git pull
        - git push 
+
+20. `vim <file name>`-> isse hum ek nayi file banate hain same as touch command but vim cmd use karne se 
+hum terminal me hi content likh sakte hain
+21. `git stash`-> is command ko use karne se hamari file jo humne create ki hai wo delete ho jaegi  lekin wo file tabhi delete hogi jab wo staging area me hogi means {git add <filename>} command ko use karne se 
+22. `git stash list`
+23. `git stash apply`->hamari deleted file wapas aa jaegi
+24. `git stash show stash@{stash number}`
+25. `cat <filename>`->iss command ko use karne se hamara file ke andar kya hai wo print ho jayega 
+26. `git stash --include-untracked`->ye command use hota hai untracked file ko delete karne ke liye 
+27. `git stash drop stash@{stash number}`->this make the stash@{} deleted
+28. `git stash clear`->if we want to remove everything in the stash then we do this
